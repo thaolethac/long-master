@@ -45,6 +45,7 @@ if(true){
         <Route path="/dang-nhap" element={<Login />} />
         <Route path={"/thong-tin-cua-toi"} element={<Profile/>}/>
         <Route path={"/new-post"} element={<Home/>}/>
+          <Route path={"/new-post"} element={<Home/>}/>
 
       </Routes>
       <Sticky />
